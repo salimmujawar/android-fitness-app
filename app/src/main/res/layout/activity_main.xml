@@ -14,7 +14,7 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:id="@+id/lvWeight"
+            android:id="@+id/btnWeight"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="10dp"
@@ -96,7 +96,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/relYoga"
+            android:id="@+id/btnYoga"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="10dp"
@@ -165,7 +165,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/relCardio"
+            android:id="@+id/btnCardio"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="10dp"
