@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fitness</string>
+    <string name="img_weight">Weight</string>
+    <string name="weig_progress">35%</string>
+    <string name="yoga">Yoga</string>
+    <string name="yoga_progress">0%</string>
+    <string name="weight_lifting">Weight Lifting</string>
+    <string name="do_you_even_lift">Do you even lift?</string>
+    <string name="namaste">Namaste</string>
+    <string name="cardio">Cardio</string>
+    <string name="unlock_your_potential">Unlock your potential</string>
+    <string name="weight_10_sets">10 Sets</string>
+    <string name="cardio_5_miles">5 miles</string>
+    <string name="current_excersise">Current Excersise</string>
+    <string name="cardio_0">0%</string>
+    <string name="yoga_1_hour">1 hour</string>
+</resources>

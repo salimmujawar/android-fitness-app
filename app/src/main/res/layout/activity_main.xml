@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/lvWeight"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#02B8F0">
+
+            <ImageView
+                android:id="@+id/imgWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/img_weight"
+                app:srcCompat="@drawable/weight" />
+
+            <TextView
+                android:id="@+id/txtCurrExcersise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="#fff"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/current_excersise"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtNumRep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="#0284B4"
+                android:paddingStart="5dp"
+                android:paddingEnd="15dp"
+                android:text="@string/weight_10_sets"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtActivityWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/weight_lifting"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtWeightSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/do_you_even_lift"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtWeightProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/weig_progress"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relYoga"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#9D75CD">
+
+            <ImageView
+                android:id="@+id/imgYoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/yoga"
+                app:srcCompat="@drawable/lotus" />
+
+            <TextView
+                android:id="@+id/txtYogaDur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="#0284B4"
+                android:paddingStart="5dp"
+                android:paddingEnd="15dp"
+                android:text="@string/yoga_1_hour"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtActivityYoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/yoga"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtYogaSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/namaste"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtYogaProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/yoga_progress"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relCardio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#51B468">
+
+            <ImageView
+                android:id="@+id/imgCardio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/yoga"
+                app:srcCompat="@drawable/heart" />
+
+            <TextView
+                android:id="@+id/txtCardioMiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="#0284B4"
+                android:paddingStart="5dp"
+                android:paddingEnd="15dp"
+                android:text="@string/cardio_5_miles"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtActivityCardio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/cardio"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtCardioSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/unlock_your_potential"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtCardioProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/cardio_0"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
