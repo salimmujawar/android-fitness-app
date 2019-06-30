@@ -14,4 +14,7 @@
     <string name="current_excersise">Current Excersise</string>
     <string name="cardio_0">0%</string>
     <string name="yoga_1_hour">1 hour</string>
+    <string name="exercise">Exercise</string>
+    <string name="mark_it_complete">Mark it Complete!</string>
+    <string name="complete_type_1_set">Complete type 1 set</string>
 </resources>
